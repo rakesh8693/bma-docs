@@ -75,7 +75,7 @@ application you can also create a group like team names under differenet categor
 
    ![mvn console](img/bmvn.png)
    
-- step6 navigate into target directory under bma-app-backend open terminal run **java -jar -Dspring.profiles.active=dev <jarname>**
+- step6 navigate into target directory under bma-app-backend open terminal run **java -jar -Dspring.profiles.active=dev -DSERVER_PORT=portnumber <jarname>**
 
    ![java console](img/sjar.png)
    ![java console](img/sblog.png)
@@ -85,7 +85,7 @@ application you can also create a group like team names under differenet categor
 
 ### Testing with Openapi
 
-- step1 open your browser and type **http://localhost:9090/swagger-ui.html** and you should able to see message as shown in below image
+- step1 open your browser and type **http://localhost:9090/swagger-ui.html** or **http://bma-env-1.eba-wgdegdsk.us-east-1.elasticbeanstalk.com/swagger-ui/index.html?configUrl=/BMA-docs/swagger-config** and you should able to see message as shown in below image
 
    ![open api console](img/api.png)
    
